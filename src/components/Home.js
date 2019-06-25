@@ -1,11 +1,9 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+// import ModalExample from './Modal'
 
 function Home() {
   return (
     <div className="App">
-        <Link to='/form'>Form</Link>{' '}
-        <Link to='/dogs'>Dogs</Link>
         <h1>Home</h1>
     </div>
   );
